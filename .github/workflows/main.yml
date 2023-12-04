@@ -54,8 +54,8 @@ jobs:
           file: ./Dockerfile
           # List of tags
           tags: |
-            fabricioveronez/api-conversao-python:latest         
-            fabricioveronez/api-conversao-python:${{ env.tagVersion }}         
+            EduVetClin/api-conversao-python:latest         
+            EduVetClin/api-conversao-python:${{ env.tagVersion }}         
           push: true
           
   CD:
