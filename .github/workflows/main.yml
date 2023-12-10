@@ -55,7 +55,6 @@ jobs:
           # List of tags
           tags: |
             EduVetClin/api-conversao-python:latest         
-            EduVetClin/api-conversao-python:${{ env.tagVersion }}         
           push: true
           
   CD:
